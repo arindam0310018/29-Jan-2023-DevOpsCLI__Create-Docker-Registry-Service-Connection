@@ -1,0 +1,25 @@
+{
+  "data": {},
+  "name": "AM-ACR-Srv-Connection",
+  "type": "dockerregistry",
+  "authorization": {
+    "parameters": {
+      "username": "ampocapplacr",
+      "password": "XXXXXXXXXXXXXXXXXXXXXXXXX",
+	  "email": "mail2arindam2003@yahoo.com",
+	  "registry": "https://ampocapplacr.azurecr.io"
+    },
+    "scheme": "UsernamePassword"
+  },
+  "isShared": false,
+  "isReady": true,
+  "serviceEndpointProjectReferences": [
+    {
+      "projectReference": {
+        "id": "36aaac58-e06f-47ed-8b98-003ad670ee3c",
+        "name": "AMCLOUD"
+      },
+      "name": "AM-ACR-Srv-Connection"
+    }
+  ]
+}
